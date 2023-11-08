@@ -1,0 +1,13 @@
+@startuml transformer_class_diagram
+package transformer {
+    interface TransformationManager {
+        + Provider() string
+        + TransformForType() (Transformer, error)
+        + RegisterTransformer(Transformer)
+        + Init()
+    }
+    interface Transformer {
+        + Type() string
+        + Transform() (interface{}, error)
+    }
+}

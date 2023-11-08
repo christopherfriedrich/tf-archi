@@ -1,0 +1,19 @@
+= Azure transformations
+:icons: font
+
+This directory contains transformations that are specific to Azure.
+
+== Supported resources
+
+Currently, the following resources are supported:
+
+[cols="1"]
+|===
+|Resource
+
+|`azurerm_resource_group`
+
+|`azurerm_virtual_network`
+
+|`azurerm_subnet`
+|===

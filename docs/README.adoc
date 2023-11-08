@@ -1,0 +1,11 @@
+= Documentation
+
+:toc: preamble
+
+== Transformation
+
+If you want to learn about the implementation process or want to implement the transformation for a new provider or modify an existing one, you can find the documentation in the xref:transformation.adoc[Transformation] section.
+
+== Archimate
+
+To support the creation of the Archimate output format, a package for the serialization of Archimate 3.1 XML files is provided in link:../pkg/archimate[pkg/archimate].

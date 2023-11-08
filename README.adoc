@@ -1,0 +1,19 @@
+= tf-archi: Terraform to Archimate converter
+
+This tool is a simple command line utility to convert Terraform managed infrastructure to enterprise architecture diagrams based on Archimate.
+
+== Development
+
+1. Install Go 1.21 or later
+2. Clone the repository
+3. Download dependencies
+
+[source,sh]
+----
+git clone git@github.com:christopherfriedrich/tf-archi.git
+----
+
+[source,sh]
+----
+go mod download
+----
